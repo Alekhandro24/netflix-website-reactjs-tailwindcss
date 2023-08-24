@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# <img src="./public/netflix-favicon.png" alt="Netflix Logo" style="width:50px; height:50px"/> **Netflix clone website**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project I build a front-end Netflix clone with a Firebase back-end! I
+use the TMDB API for all of the data and Firebase Authentication to give login
+functionality. The website is able to store user specific data with a React
+front-end and a Firebase back-end. I use Firestore which is cloud storage to
+save data. The front-end is styled with Tailwind CSS. Also it was deployed with
+Firebase Hosting. The website is designed to be fully responsive, adapting to
+different screen sizes starting from a minimum width of 375px.
 
-## Available Scripts
+## Home Page
 
-In the project directory, you can run:
+There is a random movie-image of one of the top movie of the day on the top of
+the page. Also can find two buttons that allow you to SignIn or SignUp to our
+Netflix clone website. Under the movie-image you’ll find gallery slidshows of 5
+movies categories with the top movies. Each gallery slidshow has two buttons
+that allow you to see top 20 of the catogory. On hover on a movie card you can
+find the name of the movie and a little heart on the top left side. If you press
+the heart it’ll be add the movie to your account. To enter on your account you
+should Sign In or Sign Up.
 
-### `npm start`
+## Sign In / Sign Up Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sign In and Sign Up: Users have the option to Sign In and Sign Up to their
+accounts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Account Page
 
-### `npm test`
+On Account Page you can find all movies that you have chosen on Home Page. Also
+you can delete them from you list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+The Netflix clone website was built using the following technologies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React JS
+- Tailwind CSS
+- Firebase
+- TMDB API
+- React Router
+- Axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. To run this application locally on your computer, you need to have TypeScript
+   installed globally.
 
-### `npm run eject`
+2. Clone this repository: git clone
+   https://github.com/Alekhandro24/netflix-website-reactjs-tailwindcss
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Change into the project directory: cd netflix-website-reactjs-tailwindcss
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Install the dependencies: npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Start the development server: npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. Open your browser and visit http://localhost:3000 to view the application.
 
-## Learn More
+## Contact Information
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Linkedin:**
+  [alekhandro-lagonavarro](https://www.linkedin.com/in/alekhandro-lagonavarro/)
+- **GitHub:** [Alekhandro24](https://github.com/Alekhandro24)
+- **Tel:** [+380507695110](+380507695110)
+- **Email:** [lagoalekhandro@gmail.com](https://www.gmail.com)
